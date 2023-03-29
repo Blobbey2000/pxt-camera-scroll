@@ -17,9 +17,9 @@ namespace CameraScroll {
     }
 
     /**
-    * Creates a camera scroll.
+    * Starts a camera scroll.
     */
-    //% block="scroll camera with horizontal speed $horizontally and vertical speed $vertically"
+    //% block="scroll camera with vx $horizontally and vy $vertically"
     export function cameraScrollDiagonally(horizontally: number, vertically: number) {
         canCameraScroll = 1
         horizontalSpeed = horizontally
