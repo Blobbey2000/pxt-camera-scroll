@@ -8,8 +8,7 @@
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts",
-        "camera.scroll.ts"
+        "main.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -22,5 +21,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
