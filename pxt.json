@@ -1,6 +1,6 @@
 {
     "name": "pxt-camera-scroll",
-    "version": "1.6.1",
+    "version": "2.7.4",
     "description": "",
     "dependencies": {
         "device": "*"
@@ -8,9 +8,7 @@
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts",
-        "tilemap.g.jres",
-        "tilemap.g.ts"
+        "main.ts"
     ],
     "testFiles": [
         "test.ts"
