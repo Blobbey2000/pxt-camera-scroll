@@ -5,6 +5,19 @@ namespace scene {
     let verticalSpeed = 0
 
     /**
+     * Checks if camera is scrolling.
+     */
+    //% block="is camera scrolling"
+    //% group="Camera"
+    export function isCameraScrolling() {
+        if (canCameraScroll == 1) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    /**
     * Stops camera scroll.
     */
     //% block
